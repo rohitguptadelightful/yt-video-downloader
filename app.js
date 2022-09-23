@@ -1,5 +1,4 @@
 require('dotenv').config()
-const PORT = process.env.port || 8000;
 const express = require("express")
 const ytdl = require("ytdl-core")
 
@@ -22,6 +21,6 @@ app.get("/download", async (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log("Server is running on port " + PORT);
+app.listen(process.env.PORT || 8000, () => {
+    console.log("Server is running on port " + process.env.PORT);
 })
