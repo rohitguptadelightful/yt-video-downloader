@@ -3,7 +3,7 @@ const express = require("express")
 const ytdl = require("ytdl-core")
 
 const app = express()
-const PORT = process.env.port;
+const PORT = process.env.port || 3000;
 
 app.set("view engine", "ejs");
 
