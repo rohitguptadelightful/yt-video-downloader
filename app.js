@@ -1,9 +1,9 @@
 require('dotenv').config()
+const PORT = process.env.port || 8000;
 const express = require("express")
 const ytdl = require("ytdl-core")
 
 const app = express()
-const PORT = process.env.port || 3000;
 
 app.set("view engine", "ejs");
 

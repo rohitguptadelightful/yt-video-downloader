@@ -1,11 +1,17 @@
 {
   "name": "yt-downloader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Youtbe Video Downloader",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
+  "keywords": [
+    "youtube downloader",
+    "video downloader",
+    "yt downloader",
+    "yt video downloader"
+  ],
   "author": "Rohit Kumar Gupta",
   "license": "ISC",
   "dependencies": {
